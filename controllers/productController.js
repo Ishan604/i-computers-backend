@@ -93,3 +93,5 @@ export function getProductByID(req , res) {
       res.status(500).json({ message: "Error while getting the data" });
     });
 }
+
+//if we want to use await, we need pass async before the function or we can directly use await without async in the index.js file
